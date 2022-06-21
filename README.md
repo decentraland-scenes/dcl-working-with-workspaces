@@ -7,6 +7,14 @@
 This scene demonstrates how to run multiple scenes and/or portable experiences at one time
 
 
+This scene shows you:
+
+- How to add/remove scenes from the workspace
+- Run multiple scenes at same time
+- Run portable experiences with other scenes
+- Make odd scene shapes such as a hollow rectangles 
+
+- 
 
 ## Try it out
 
