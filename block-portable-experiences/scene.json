@@ -1,0 +1,20 @@
+{
+  "display": {
+    "title": "Platformer",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "NicoE",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "3,3"
+    ],
+    "base": "3,3"
+  }
+}
