@@ -9,7 +9,7 @@ class RotatorSystem {
     for (const entity of this.group.entities) {
       // get the Transform component of the entity
       const transform = entity.getComponent(Transform)
-
+   
       // mutate the rotation
       transform.rotate(Vector3.Up(), dt * 10)
     }
@@ -27,11 +27,11 @@ const camera = Camera.instance
 
 const box = new Entity()
 box.addComponent( new BoxShape() )
-box.addComponent( new Transform({position:new Vector3(2,.5,2),scale:new Vector3(2,.5,2)}))
+box.addComponent( new Transform({position:new Vector3(-10,.5,2),scale:new Vector3(2,.5,2)}))
 engine.addEntity(box)
-
+ 
 log("added box  ")
-
+        
 input.subscribe("BUTTON_DOWN", ActionButton.POINTER, true, (e) => {
   if(!started){
     started = true
