@@ -4,6 +4,7 @@
   "description": "My new Decentraland project",
   "scripts": {
     "start": "CI=true dcl start -p ${PORT:=8000} --skip-build",
+    "start:local": "dcl start",
     "build": "echo 'skipping build'",
     "watch": "build-ecs --watch",
     "deploy:now": "dcl export && now export",

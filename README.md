@@ -1,3 +1,13 @@
+# Please read me: `MAIN` branch
+
+## This branch is for Heroku deployments.
+You can deploy to your heroku app running `git push heroku main`.
+
+## The modified files are:
+- `package.json`: added `npm run start:local` and modified `npm start` because of the heroku app
+- all `.gitignore`: to allow commiting 'bin/game.js`
+- all bin/game.js commited, we need to build locally running `npm run start:local` at least once to generated up to date builds.
+
 # Working With Workspaces 
 
 <img src="screenshot/screenshot.png" width="500"> 
