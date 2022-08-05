@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "My new Decentraland project",
   "scripts": {
-    "start": "dcl start",
+    "start": "CI=true dcl start -p ${PORT:=8000}",
     "build": "build-ecs",
     "watch": "build-ecs --watch",
     "deploy:now": "dcl export && now export",
     "ecs:install": "npm install --save-dev decentraland-ecs@latest",
     "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
+  },
+  "dependencies": {
+    "decentraland": "next"
   },
   "devDependencies": {
     "decentraland-ecs": "latest"
