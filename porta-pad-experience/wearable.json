@@ -1,0 +1,42 @@
+{
+  "id": "f44c6245-5bba-46d3-a619-c412e5fc21fa",
+  "data": {
+    "replaces": [],
+    "hides": [],
+    "tags": [
+      "special",
+      "new",
+      "eyebrows"
+    ],
+    "representations": [
+      {
+        "bodyShapes": [
+          "urn:decentraland:off-chain:base-avatars:BaseMale",
+          "urn:decentraland:off-chain:base-avatars:BaseFemale"
+        ],
+        "mainFile": "glasses.glb",
+        "contents": [
+          "glasses.glb"
+        ],
+        "overrideHides": [],
+        "overrideReplaces": []
+      }
+    ],
+    "category": "eyewear"
+  },
+  "image": "glasses.png",
+  "i18n": [
+    {
+      "code": "en",
+      "text": "test"
+    }
+  ],
+  "assetType": "portable-experience",
+  "name": "Portable Experience Example",
+  "description": "My new Portable Experience",
+  "rarity": "mythic",
+  "thumbnail": "glasses.png",
+  "model": "glasses.glb",
+  "bodyShape": "both",
+  "collectionAddress": ""
+}
