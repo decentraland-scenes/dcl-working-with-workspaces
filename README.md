@@ -14,7 +14,11 @@ This scene shows you:
 - Run portable experiences with other scenes
 - Make odd scene shapes such as a hollow rectangles 
 
-- 
+
+## Video Tutorial
+
+[https://www.youtube.com/watch?v=ZPe9wU0HxvY](https://www.youtube.com/watch?v=ZPe9wU0HxvY)
+
 
 ## Try it out
 
